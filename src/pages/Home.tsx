@@ -9,8 +9,6 @@ export function Home() {
     event.preventDefault();
 
     if (!search.trim()) {
-      // case search is empty and disregarding empy characters
-      // return - stop the execution
       return;
     }
 
